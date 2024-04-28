@@ -18,7 +18,8 @@ import { NewsideComponent } from './newdashboard/newside/newside.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
