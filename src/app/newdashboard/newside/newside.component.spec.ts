@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { NewsideComponent } from './newside.component';
+
+describe('NewsideComponent', () => {
+  let component: NewsideComponent;
+  let fixture: ComponentFixture<NewsideComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [NewsideComponent]
+    })
+    .compileComponents();
+    
+    fixture = TestBed.createComponent(NewsideComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
